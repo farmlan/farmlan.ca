@@ -23,7 +23,7 @@ All LAN games and files that aren't hosted on steam will be located at the follo
 
 Alternatively you can open `Windows Terminal` or `PowerShell` and copy the command below to map as a network drive. At the `credentials prompt`, just press ++enter++, since there is no password
 
-```PowerShell "Mapping FarmLan Share"
+```powershell
 New-PSDrive -Name "A" -Root "\\share.farmlan.ca\public" -Persist -PSProvider "FileSystem" -Credential share -ErrorAction Ignore
 ```
 
