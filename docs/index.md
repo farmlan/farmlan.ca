@@ -1,81 +1,57 @@
-# Welcome to FarmLAN 2025!
+# FarmLan 2025-11-14_16
 
-# LAN Files
+## Preperation
+
+### Disable Steam Direct Transfers
+
+We utilize LANCache to allow local cached downloads. Having this setting enabled will interfere with LANCache.
+
+Disable it with these steps.
+
+1. Open the Steam client on your PC.
+1. Go to the `Settings` menu.
+1. Select the `Downloads` tab.
+1. Under the `Game File Transfer over Local Network` section, toggle the option to `Off`.
+
+### LAN Provided Files
 
 All LAN games and files that aren't hosted on steam will be located at the following share. The share does not have a password.
 
-1. Open your file browser of choice
-2. Navigate to \\share.farmlan.ca\public\
-4. Username: `share`
+1. Open your file browser of choice or press ++windows+r++
+1. Enter `\\share\public`
+1. Username: `share`
 
-## Connecting to Servers
+Alternatively you can open `Windows Terminal` or `PowerShell` and copy the command below to map as a network drive. At the `credentials prompt`, just press ++enter++, since there is no password
 
-Below are instructions for connecting to any dedicated server we have configured for the event. If you do not see any instructions for a particular game, you will be invited to it via a steam invite. 
+```PowerShell Mapping FarmLan Share
+New-PSDrive -Name "A" -Root "\\share.farmlan.ca\public" -Persist -PSProvider "FileSystem" -Credential share -ErrorAction Ignore
+```
 
-### COD4 - IW4x
-1. Launch "iw4x-launcher.exe" in the IW4x folder
-2. Select "Join Game"
-3. Change "Source" to "Local"
-4. Connect to FarmLAN Server01 or 02
+!!! warning
+    After the LAN the network drive will not be accessable and will always show disconnected. You can Rightclick and remove the share after the LAN.
 
-### Natural Selection 2
-1. Launch Natural Selection 2 from Steam
-2. Select "Play" and then "Community Servers"
-3. The FarmLAN server should be at the top of the list
-	- If it is not, select "Filter" and search for "FarmLAN"
-4. If neither of those options work, launch the console via "~"
-5. Enter "Connect 192.168.5.7"
+### Game Installations
 
-### Terraria
-1. Launch Terraria from Steam
-2. Select "Multiplayer"
-3. Select "Join via IP"
-4. Select or create your character
-5. Enter Server IP of "192.168.5.7"
-6. Enter Server Port of 7777
+!!! note
+    If the game you are looking for isn't on this list, it should be downloaded via Steam
+Below are instructions for installing any LAN specific game.
 
-### Valheim
-1. Launch Valheim from Steam
-2. Select or create  your character
-3. Select "Join Game"
-4. Select "Add Server" and enter "192.168.5.7:2456"
+We recommend creating a specific folder on your computer for the LAN files. Common places are in the root of C:\ or a desktop folder. Transfer all files to this folder.
 
-### Counter Strike 2
-We have 2 servers configured for Counter Strike 2. Server 01 is Deathmatch and Server02 is Gun Game
-1. Launch Counter Strike 2 from Steam
-2. Bring up the console with "~"
-	- If this is the first time at the LAN, enable this option via Settings
-	- "Game" and "Enable Developer Console" switched to Yes
-3. Enter "Connect 192.168.5.7" for Server 01
-4. Enter "Connect 192.168.5.8" for Server 02
+We also have available a bunch of optional games in the folder, feel free to poke around and see if anyone else is interested! Most of the other files with be portable or very basic installers.
 
-### PowerBomberMan
-1. Launch Powerbomberman
-2. Select "Battle Mode"
-3. Select "Online Battle"
-4. Select "Connect to Server" and then "Add Server"
-5. Server Address "192.168.5.8" Port "64640"
+#### COD MW2 - IW4x
 
-
-## Game Installations
-
-Below are instructions for installing any LAN specific game. If the game you are looking for isn't on this list, then it is available via Steam and should be downloaded there. 
-
-We recommend creating a specific folder on your computer for the LAN files. Common places are in the root of C:\ or a desktop folder. Transfer all files to this folder. 
-
-We also have available a bunch of optional games in the folder, feel free to poke around and see if anyone else is interested! Most of the other files with be portable or very basic installers. 
-
-### COD4 - IW4x
-1. From the LAN share (FPS/Modern Warfare 2), copy over the "iw4x_full_game_w_files.7z and "iw4x-launcher.exe"
-2. Extract the iw4x folder and copy over the "iw4x-launcher.exe" to game folder
-3. Launch iw4x-launcher.exe
-4. Wait for the launcher to update and install any required files
-	- If you are prompted to download DLC, select yes
-5. If this is your first time playing IW4x, run the following commands
-	-  Open the console with "~" on the main menu
-	-  Enter : "unlockstats"
-	-  Close the console, you should now see "create a class" available
-9. Adjust your Video settings as required
+1. From `\\share.farmlan.ca\public\Installers\FPS\Modern Warfare 2`, copy over `iw4x_full_game_w_files.7z` and `iw4x-launcher.exe`
+1. Extract the iw4x folder and copy over the "iw4x-launcher.exe" to game folder
+1. Launch iw4x-launcher.exe
+1. Wait for the launcher to update and install any required files
+    - If you are prompted to download DLC, select yes
+1. If this is your first time playing IW4x, run the following commands
+    - Open the console with "~" on the main menu
+    - Enter : "unlockstats"
+    - Close the console, you should now see "create a class" available
+1. Adjust your Video settings as required
 
 ### Blur
 1. From the LAN share (Other/Blur), copy over "Blur_Win_Full-Rip.ZIP"
@@ -132,3 +108,50 @@ We also have available a bunch of optional games in the folder, feel free to pok
 1. From the LAN share (Other/Bomberman), copy over Bomberman folder
 2. Run "Power Bomberman.exe"
 3. Setup your controls
+
+## Connecting to Servers
+
+Below are instructions for connecting to any dedicated server we have configured for the event. If you do not see any instructions for a particular game, you will be invited to it via a steam invite.
+### COD4 - IW4x
+1. Launch "iw4x-launcher.exe" in the IW4x folder
+2. Select "Join Game"
+3. Change "Source" to "Local"
+4. Connect to FarmLAN Server01 or 02
+
+### Natural Selection 2
+1. Launch Natural Selection 2 from Steam
+2. Select "Play" and then "Community Servers"
+3. The FarmLAN server should be at the top of the list
+	- If it is not, select "Filter" and search for "FarmLAN"
+4. If neither of those options work, launch the console via "~"
+5. Enter "Connect 192.168.5.7"
+
+### Terraria
+1. Launch Terraria from Steam
+2. Select "Multiplayer"
+3. Select "Join via IP"
+4. Select or create your character
+5. Enter Server IP of "192.168.5.7"
+6. Enter Server Port of 7777
+
+### Valheim
+1. Launch Valheim from Steam
+2. Select or create  your character
+3. Select "Join Game"
+4. Select "Add Server" and enter "192.168.5.7:2456"
+
+### Counter Strike 2
+We have 2 servers configured for Counter Strike 2. Server 01 is Deathmatch and Server02 is Gun Game
+1. Launch Counter Strike 2 from Steam
+2. Bring up the console with "~"
+	- If this is the first time at the LAN, enable this option via Settings
+	- "Game" and "Enable Developer Console" switched to Yes
+3. Enter "Connect 192.168.5.7" for Server 01
+4. Enter "Connect 192.168.5.8" for Server 02
+
+### PowerBomberMan
+1. Launch Powerbomberman
+2. Select "Battle Mode"
+3. Select "Online Battle"
+4. Select "Connect to Server" and then "Add Server"
+5. Server Address "192.168.5.8" Port "64640"
