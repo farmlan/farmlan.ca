@@ -10,9 +10,6 @@ copyright: Copyright &copy; 2025 FarmLan
 theme:
   name: material
 
-  # For base theme changes
-  custom_dir: overrides
-
   palette:
 
     # Palette toggle for automatic mode
