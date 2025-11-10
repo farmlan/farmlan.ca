@@ -27,12 +27,12 @@ Alternatively you can open `Windows Terminal` or `PowerShell` and copy the comma
 New-PSDrive -Name "A" -Root "\\share.farmlan.ca\public" -Persist -PSProvider "FileSystem" -Credential share -ErrorAction Ignore
 ```
 
-!!! warning
+!!! warning " "
     After the LAN the network drive will not be accessable and will always show disconnected. You can Rightclick and remove the share after the LAN.
 
 ### Game Installations
 
-!!! note
+!!! note " "
     If the game you are looking for isn't on this list, it should be downloaded via Steam
 Below are instructions for installing any LAN specific game.
 
@@ -42,15 +42,20 @@ We also have available a bunch of optional games in the folder, feel free to pok
 
 #### COD MW2 - IW4x
 
-1. From `\\share.farmlan.ca\public\Installers\FPS\Modern Warfare 2`, copy over `iw4x_full_game_w_files.7z` and `iw4x-launcher.exe`
-1. Extract the iw4x folder and copy over the "iw4x-launcher.exe" to game folder
+!!! note
+    If you own Call of Duty: Modern Warefare 2 on Steam, download the game via Steam to utilize LANCache. Then you're only required to copy `iw4x-launcher.exe` from the share.
+
+1. From `\\share.farmlan.ca\public\Installers\FPS\Modern Warfare 2`, copy over `iw4x_full_game_w_files.7z`
+1. Extract `iw4x_full_game_w_files.7z`
+    - after it has completed, you can delete the achrive
+1. From the share copy `iw4x-launcher.exe` to the exctracted folder
 1. Launch iw4x-launcher.exe
 1. Wait for the launcher to update and install any required files
     - If you are prompted to download DLC, select yes
 1. If this is your first time playing IW4x, run the following commands
-    - Open the console with "~" on the main menu
-    - Enter : "unlockstats"
-    - Close the console, you should now see "create a class" available
+    - Open the console with ++tilde++ in the main menu
+    - Type: `unlockstats`
+    - Close the console, you should now see `create a class` available
 1. Adjust your Video settings as required
 
 ### Blur
