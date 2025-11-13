@@ -46,6 +46,7 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - toc.follow
+    - toc.integrate 
     - navigation.top
     - search.suggest
     - search.highlight
