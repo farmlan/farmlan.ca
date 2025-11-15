@@ -18,7 +18,7 @@ Disable it with these steps.
 All LAN games and files that aren't hosted on steam will be located at the following share. The share does not have a password.
 
 1. Open your file browser of choice or press ++windows+r++
-1. Enter `\\share\public`
+1. Enter `\\share.farmlan.ca\public`
 1. Username: `share`
 
 Alternatively you can open `Windows Terminal` or `PowerShell` and copy the command below to map as a network drive. At the `credentials prompt`, just press ++enter++, since there is no password
@@ -68,6 +68,7 @@ Below are instructions for connecting to the dedicated server we have configured
 1. Select or create  your character
 1. Select `Join Game`
 1. Select `Add Server` and enter `192.168.5.7:2456`
+1. Enter `LAN2025` as the password
 
 ### Counter Strike 2
 
