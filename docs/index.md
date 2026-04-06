@@ -59,7 +59,7 @@ Below are instructions for connecting to the dedicated server we have configured
 1. Select `Multiplayer`
 1. Select `Join via IP`
 1. Select or create your character
-1. Enter Server IP of `192.168.5.7`
+1. Enter Server IP of `terraria.farmlan.ca`
 1. Enter Server Port of `7777`
 
 ### Valheim
@@ -77,8 +77,8 @@ Below are instructions for connecting to the dedicated server we have configured
 
 1. Launch Counter Strike 2 from Steam
 1. Bring up the console with ++tilde++
-1. Enter `Connect 192.168.5.7` for Deathmatch
-1. Enter `Connect 192.168.5.8` for Gun Game
+1. Enter `Connect cs-dm.farmlan.ca` for Deathmatch
+1. Enter `Connect cs-ar.farmlan.ca` for Arms Race
 
 ### PowerBomberMan
 
