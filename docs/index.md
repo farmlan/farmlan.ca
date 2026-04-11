@@ -51,7 +51,7 @@ Below are instructions for connecting to the dedicated server we have configured
 1. The FarmLAN server should be at the top of the list
 	- If it is not, select `Filter` and search for `FarmLAN`
 1. If neither of those options work, launch the console via `~`
-1. Enter `Connect 192.168.5.7`
+1. Enter `Connect 192.168.5.2`
 
 ### Terraria
 
