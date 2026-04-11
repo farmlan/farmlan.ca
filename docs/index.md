@@ -61,6 +61,7 @@ Below are instructions for connecting to the dedicated server we have configured
 1. Select or create your character
 1. Enter Server IP of `terraria.farmlan.ca`
 1. Enter Server Port of `7777`
+2. Enter `farmlan` as the password
 
 ### Valheim
 
@@ -68,7 +69,7 @@ Below are instructions for connecting to the dedicated server we have configured
 1. Select or create  your character
 1. Select `Join Game`
 1. Select `Add Server` and enter `192.168.5.7:2456`
-1. Enter `LAN2025` as the password
+1. Enter `farmlan` as the password
 
 ### Counter Strike 2
 
@@ -80,6 +81,12 @@ Below are instructions for connecting to the dedicated server we have configured
 1. Enter `Connect cs-dm.farmlan.ca` for Deathmatch
 1. Enter `Connect cs-ar.farmlan.ca` for Arms Race
 
+### Spellbreak
+
+1. Launch Spellbreak
+2. Enter `192.168.5.11:7777`
+3. Click Play
+   
 ### PowerBomberMan
 
 1. Launch Powerbomberman
@@ -157,6 +164,11 @@ We also have available a bunch of optional games in the folder, feel free to pok
 1. From `\\share.farmlan.ca\public\Installers\RTS\Beyond-All-Reason` copy `Beyond-All-Reason-Maps.7z` to your LAN folder
 1. Extract `Beyond-All-Reason-Maps.7z` into `*\Beyond-All-Reason\data\maps`
 
+### Spellbreak
+
+1. From `\\share.farmlan.ca\public\Installers\FPS` copy `spellbreak.zip` to your LAN folder
+2. Unpack `spellbreak.zip` and delete .zip after it's completed
+3. Launch `spellbreak.exe`
 
 ### Worms Armageddon
 
