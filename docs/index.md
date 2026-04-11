@@ -86,6 +86,23 @@ Below are instructions for connecting to the dedicated server we have configured
 1. Launch Spellbreak
 2. Enter `192.168.5.11:7777`
 3. Click Play
+
+### Project Zomboid
+
+!!! note
+	You must create a unique username & password to join a zomboid server. Please set it to whatever you'd like.
+	If this is your first time playing Project Zomboid, I highly recommend you playing the tutorial
+	
+1. Select Join
+2. Favourite name `farmlan`
+3. IP `192.168.5.2`
+4. Local IP `192.168.5.2`
+5. Port `16261`
+6. Server Password `farmlan`
+7. Account Username `something unique`
+8. Account Password `something unique`
+9. Leave `use steam relay` unchecked
+10. Save and then connect
    
 ### PowerBomberMan
 
