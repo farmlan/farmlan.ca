@@ -78,8 +78,8 @@ Below are instructions for connecting to the dedicated server we have configured
 
 1. Launch Counter Strike 2 from Steam
 1. Bring up the console with ++tilde++
-1. Enter `Connect cs-dm.farmlan.ca` for Deathmatch
-1. Enter `Connect cs-ar.farmlan.ca` for Arms Race
+1. Enter `connect cs-dm.farmlan.ca; password farmlan` for Deathmatch
+1. Enter `Connect cs-ar.farmlan.ca; password farmlan` for Arms Race
 
 ### Spellbreak
 
