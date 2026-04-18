@@ -47,7 +47,7 @@ Below are instructions for connecting to the dedicated server we have configured
 ### Natural Selection 2
 
 1. Launch Natural Selection 2 from `Steam`
-1. Click the hyperlink to connect to [Natural Selection2](steam://connect/192.168.5.2)
+1. Click the hyperlink to connect to [Natural Selection2](steam://connect/192.168.5.2:27017/farmlan)
 
 !!! note
     If you get a pop-up in your browser, click allow all links for farmlan.ca
