@@ -47,29 +47,22 @@ Below are instructions for connecting to the dedicated server we have configured
 ### Natural Selection 2
 
 1. Launch Natural Selection 2 from `Steam`
-1. Select `Play` and then `Community Servers`
-1. The FarmLAN server should be at the top of the list
-	- If it is not, select `Filter` and search for `FarmLAN`
-1. If neither of those options work, launch the console via `~`
-1. Enter `Connect 192.168.5.2`
+1. Click the hyperlink to connect to [Natural Selection2](steam://connect/192.168.5.2)
+
+!!! note
+    If you get a pop-up in your browser, click allow all links for farmlan.ca
+
 
 ### Terraria
 
 1. Launch Terraria from `Steam`
-1. Select `Multiplayer`
-1. Select `Join via IP`
-1. Select or create your character
-1. Enter Server IP of `terraria.farmlan.ca`
-1. Enter Server Port of `7777`
-2. Enter `farmlan` as the password
+1. Click the hyperlink to connect to [Terraria](steam://connect/192.168.5.2:7777/farmlan)
+
 
 ### Valheim
 
 1. Launch Valheim from Steam
-1. Select or create  your character
-1. Select `Join Game`
-1. Select `Add Server` and enter `192.168.5.7:2456`
-1. Enter `farmlan` as the password
+1. Click the hyperlink to connect to [Valheim](steam://connect/192.168.5.2:7777/farmlan)
 
 ### Counter Strike 2
 
@@ -77,9 +70,7 @@ Below are instructions for connecting to the dedicated server we have configured
     If the ++tilde++ key doesn't show up when pressed, enable the option via Settings `Game` and `Enable Developer Console` switched to `Yes`
 
 1. Launch Counter Strike 2 from Steam
-1. Bring up the console with ++tilde++
-1. Enter `connect cs-dm.farmlan.ca; password farmlan` for Deathmatch
-1. Enter `Connect cs-ar.farmlan.ca; password farmlan` for Arms Race
+1. Click the hyperlink to connect to [CS2-GG](steam://connect/192.168.5.2:27015/farmlan)
 
 ### Spellbreak
 
