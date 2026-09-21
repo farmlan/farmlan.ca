@@ -18,13 +18,13 @@ Disable it with these steps.
 All LAN games and files that aren't hosted on steam will be located at the following share. The share does not have a password.
 
 1. Open your file browser of choice or press ++windows+r++
-1. Enter `\\share.farmlan.ca\public`
+1. Enter `\\share.farmlan.ca\share`
 1. Username: `share`
 
 Alternatively you can open `Windows Terminal` or `PowerShell` and copy the command below to map as a network drive. At the `credentials prompt`, just press ++enter++, since there is no password
 
 ```powershell
-New-PSDrive -Name "A" -Root "\\share.farmlan.ca\public" -Persist -PSProvider "FileSystem" -Credential share -ErrorAction Ignore
+New-PSDrive -Name "A" -Root "\\share.farmlan.ca\share" -Persist -PSProvider "FileSystem" -Credential share -ErrorAction Ignore
 ```
 
 !!! warning
